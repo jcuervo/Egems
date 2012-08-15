@@ -36,7 +36,7 @@ gem 'i18n-js'
 # gem 'bcrypt-ruby', '~> 3.0.0'
 
 # To use Jbuilder templates for JSON
-# gem 'jbuilder'
+gem 'jbuilder'
 
 # To use debugger
 # gem 'ruby-debug19', :require => 'ruby-debug'
@@ -53,6 +53,7 @@ group :test do
 end
 
 group :development do
+  gem 'thin'
   gem 'sqlite3'
   gem 'pry'
   # Deploy with Capistrano
